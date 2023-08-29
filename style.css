@@ -1,0 +1,51 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   width: 100%;
+   background: linear-gradient(135deg, rgb(214, 239, 229), rgb(191, 231, 225), rgb(103, 196, 193));
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+   place-items: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+   background: rgb(158, 156, 156);
+   width: 90%;
+   border-radius: 20px;
+   margin: 20px;
+}
+
+h2 {
+   font-size: 30px;
+   padding: 20px;
+}
+
+pre {
+   font-size: 22px;
+   background: white;
+   border-radius: 20px;
+   width: 90%;
+   margin: 20px auto;
+   line-height: 40px;
+}
+
+p {
+   background: white;
+   font-size: 22px;
+   border-radius: 20px;
+   width: 90%;
+   margin: 20px auto;
+   padding: 20px;
+   padding-left: 100px;
+   box-sizing: border-box;
+   color:  green;
+}
+
+.comment {
+   color: rgb(189, 6, 189);
+}
